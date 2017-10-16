@@ -5,3 +5,5 @@ Die digitale Edition wurde 2011 unter http://www.confessio.ie/etexts/confessio_l
 Der TEI Code ist unter http://www.confessio.ie/more/downloads# (confessio_latin.xml) öffentlich zugängig.
 
 Die Folien in diesem Ordner wurden für einen Kurzvortrag beim Arbeitstreffen der KONDE AG verwendet.
+
+
