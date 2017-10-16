@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Beispielkommentar zu Arthur Schnitzler: Blumen. Historisch-Kritische Ausgabe.</title>
+        <editor>Isabella Schwentner</editor>
+        <respStmt>
+          <resp>Aufbereitung als Code Beispiel der KONDE Arbeitsgruppe 8 (Textkritik und Kommentar in Digitalen Editonen)</resp>
+        <persName>Ingo Börner</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName>KONDE – Kompetenznetzwerk Digitale Edition</orgName>
+          <ref target="http://www.digitale-edition.at/">http://www.digitale-edition.at/</ref>
+          <ref target="https://github.com/KONDE-AT/Code-Beispiele-AG-Kommentar">Code-Beispiele der KONDE Arbeitsgruppe 8 (Textkritik und Kommentar in Digitalen Editonen)</ref>
+        </distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/3.0/at/legalcode">Creative Commons Namensnennung 3.0 Österreich (CC-BY)</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Arthur Schnitzler</author>
+          <title level="a">Blumen. Historisch-kritische Ausgabe.</title>
+          <editor>Isabella Schwentner</editor>
+          <pubPlace>Berlin/Boston</pubPlace>
+          <publisher>Walter de Gruyter</publisher>
+          <date>2017</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p>
+        <lb/>Zuerst, vor drei Jahren, an einem „Kegelabend“, zu welchem auch sie 
+        <lb/>mit ihrer Mutter hingekommen war. — Und dann, im Sommer drauf
+        <lb/>da war ich mit ein paar Freunden im <anchor type="kommentar" xml:id="Bl_K_Prater_A"
+          />Prater<ptr type="kommentar" xml:id="Bl_K_Prater_E" target="#Bl_K_Prater"/>, in der
+          „<anchor type="kommentar" xml:id="Bl_K_Csarda_A"/>Csarda<ptr type="kommentar"
+          xml:id="Bl_K_Csarda_E" target="#Bl_K_Csarda"/>“.
+      </p>
+    </body>
+    <back>
+      <note type="kommentar" xml:id="Bl_K_Prater" target="#Bl_K_Prater_A" targetEnd="#Bl_K_Prater_E">
+        <term>Prater</term>
+        <p>weitläufiges Augebiet an der Donau im <rs type="ort">2. Wiener Gemeindebezirk</rs> im Nordosten Wiens; beliebtes
+          Freizeitareal der Gesellschaft des Fin de siècle.</p>
+      </note>   
+      <note type="kommentar" xml:id="Bl_K_Csarda" target="#Bl_K_Csardar_A" targetEnd="#Bl_K_Csarda_E">
+        <term>Csarda</term>
+        <p>von ungar. „csárda“: Gasthaus, Dorfschenke. Unterhaltungslokal auf dem Gelände der Weltausstellung (1873) im Prater, bekannt für ungarische Musik und Tänze.</p>
+      </note>
+    </back>
+  </text>
+</TEI>
