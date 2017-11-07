@@ -40,8 +40,8 @@
       <p>
         <lb/>Zuerst, vor drei Jahren, an einem „Kegelabend“, zu welchem auch sie 
         <lb/>mit ihrer Mutter hingekommen war. — Und dann, im Sommer drauf
-        <lb/>da war ich mit ein paar Freunden im <rs type="place" ref="@place_prater">Prater</rs>, in der
-          „<rs type="place" ref="@place_csarda">Csarda</rs>“.
+        <lb/>da war ich mit ein paar Freunden im <rs type="place" ref="#place_prater">Prater</rs>, in der
+          „<rs type="place" ref="#place_csarda">Csarda</rs>“.
       </p>
     </body>
     <back>
